@@ -1,0 +1,43 @@
+.Sidebar{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 70px;
+    z-index: 120;
+    padding-top: 5px;
+}
+
+.Sidebar_link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.Sidebar_link:hover{
+    background-color: rgb(251, 251, 251);
+    border: 0.05px;
+    border-style: solid;
+    border-color: rgb(219, 217, 217);
+    border-radius: 6px;
+    
+    box-shadow: inset 1px 2px 3px rgba(0.04, 0.04, 0.04, 0.04);
+    
+}
+
+.Sidebar_link img{
+    height: 24px;
+    margin-bottom: 4px;
+   
+
+}
+
+.Sidebar_link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
