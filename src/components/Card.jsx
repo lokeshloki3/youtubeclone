@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Css/general.css";
 import "../Css/video.css";
 

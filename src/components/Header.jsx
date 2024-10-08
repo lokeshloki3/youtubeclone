@@ -1,12 +1,11 @@
 import "../Css/header.css";
-// import "../Css/general.css";
 
 const Header = () => {
   return (
     <div>
         <div className="Header">
             <div className="left_section">
-                <img className="Hamberger" src="../Template/headericons/threelines.webp"/>
+                <img className="Hamberger" src="Template/headericons/threelines.webp"/>
                 <div className="Youtube_text">
                     <img className="youtube_icon" src="Template/headericons/YouTube-Logo-Vector.png"/>
                     <div className="tooltip">

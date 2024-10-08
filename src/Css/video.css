@@ -12,10 +12,10 @@
     color: rgb(69,69,69);
     margin-left: 5px;
 }
+
 .video_author{
     margin-bottom: 4px;
 }
-
 
 .video_title{
     margin-top: 0;
@@ -24,7 +24,6 @@
     line-height: 20px;
     margin-bottom: 12px;
     margin-left: 5px;
-
 }
 
 .video_info_grid{
@@ -32,12 +31,9 @@
     grid-template-columns: 50px 1fr;
 }
 
-
 .profile_picture{
     width: 100%;
-    border-radius: 40px;
-    
-    
+    border-radius: 40px;   
 }
 
 .Thumbnail_row{
@@ -62,7 +58,6 @@
     .video_grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
 
 @media (min-width:1000px){
